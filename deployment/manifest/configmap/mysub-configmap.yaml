@@ -5,7 +5,7 @@ metadata:
   namespace: dg0317-lifesub-ns
 data:
   SERVER_PORT: "8082"
-  POSTGRES_HOST: "postgres-mysub"
+  POSTGRES_HOST: "postgres-mysub-postgresql"
   POSTGRES_PORT: "5432"
   POSTGRES_DB: "mysub"
   JPA_DDL_AUTO: "update"
@@ -13,3 +13,4 @@ data:
   ALLOWED_ORIGINS: "http://20.249.69.69"
   FEE_LEVEL_COLLECTOR: "50000"
   FEE_LEVEL_ADDICT: "100000"
+ 

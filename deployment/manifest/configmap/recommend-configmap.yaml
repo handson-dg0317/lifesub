@@ -5,7 +5,7 @@ metadata:
   namespace: dg0317-lifesub-ns
 data:
   SERVER_PORT: "8083"
-  POSTGRES_HOST: "postgres-recommend"
+  POSTGRES_HOST: "postgres-recommend-postgresql"
   POSTGRES_PORT: "5432"
   POSTGRES_DB: "recommend"
   JPA_DDL_AUTO: "update"
