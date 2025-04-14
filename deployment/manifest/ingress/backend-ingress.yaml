@@ -2,12 +2,11 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: backend-ingress
-  namespace: dg0305-lifesub-ns
   annotations:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: dg0305.20.214.196.128.nip.io
+  - host: dg0317.20.249.186.119.nip.io
     http:
       paths:
       - path: /api/auth
