@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: recommend
-  namespace: dg0305-lifesub-ns
 spec:
   replicas: 1
   selector:
@@ -15,7 +14,7 @@ spec:
     spec:
       containers:
       - name: recommend
-        image: acrdigitalgarage01.azurecr.io/dg0305/recommend:1.0.0
+        image: acrdigitalgarage03.azurecr.io/dg0317/recommend:1.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8083
