@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: recommend-configmap
-  namespace: dg0305-lifesub-ns
+  namespace: dg0317-lifesub-ns
 data:
   SERVER_PORT: "8083"
   POSTGRES_HOST: "postgres-recommend"
