@@ -6,7 +6,7 @@ metadata:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: dg0317.20.249.186.119.nip.io
+  - host: dg0317.20.249.186.119.nip.io 
     http:
       paths:
       - path: /api/auth
